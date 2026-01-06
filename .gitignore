@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+.pnpm-debug.log*
+
+# Next.js
+.next/
+out/
+
+# Turborepo
+.turbo/
+
+# Foundry
+out/
+cache/
+
+# Solana / Anchor
+target/
+**/*.keypair.json
+
+# Conductor / Gemini
+GEMINI.md
+@GEMINI.md
+conductor/setup_state.json
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+*.pem
