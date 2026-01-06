@@ -3,7 +3,7 @@
 ## Phase 1: Project Scaffolding & Foundational Setup
 - [x] Task: Initialize Turborepo with Next.js (frontend) and Foundry (EVM contracts) [c099335]
 - [x] Task: Configure Tailwind CSS and Shadcn/UI with the Grayscale/Minimalist theme [125b425]
-- [ ] Task: Set up the basic dashboard layout (Sidebar, Header, Main Content Area)
+- [x] Task: Set up the basic dashboard layout (Sidebar, Header, Main Content Area) [92f48f7]
 - [ ] Task: Conductor - User Manual Verification 'Phase 1: Project Scaffolding' (Protocol in workflow.md)
 
 ## Phase 2: User Onboarding & AA Integration
