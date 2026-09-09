@@ -1,6 +1,23 @@
-# Dependencies
+# Generic
+.DS_Store
+Thumbs.db
+*.log
+*.pem
+.env
+.env*.local
+dist/
+build/
+coverage/
+
+# Node / npm / pnpm / yarn
 node_modules/
 .pnpm-debug.log*
+.yarn-integrity
+.npm/
+.pnp.*
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
 
 # Next.js
 .next/
@@ -9,23 +26,31 @@ out/
 # Turborepo
 .turbo/
 
+# TypeScript / testing
+*.tsbuildinfo
+/playwright-report/
+/test-results/
+
 # Foundry
 out/
 cache/
+broadcast/
+docs/
+gas-snapshots/
 
 # Solana / Anchor
 target/
+.anchor/
+.test-ledger/
 **/*.keypair.json
 
-# Conductor / Gemini
+# Conductor / Gemini (dev artifacts, never transfer)
 GEMINI.md
 @GEMINI.md
-conductor/setup_state.json
+conductor/
 
 # IDEs
 .vscode/
 .idea/
-
-# OS
-.DS_Store
-*.pem
+*.swp
+*.swo
